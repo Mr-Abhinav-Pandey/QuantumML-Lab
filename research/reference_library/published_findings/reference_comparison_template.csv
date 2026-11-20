@@ -1,0 +1,5 @@
+reference_id,source_locator,reference_configuration,reported_observation,original_experiment_id,our_configuration,our_observation,comparison_type,similarities,differences,interpretation,reproduction_status
+REF-MCCLEAN-2018,,,,,,,,,,,NOT_REPRODUCED
+REF-CEREZO-2021,,,,,,,,,,,NOT_REPRODUCED
+REF-RAGONE-2024,,,,,,,,,,,NOT_REPRODUCED
+REF-CUNNINGHAM-2025,,,,,,,,,,,NOT_REPRODUCED

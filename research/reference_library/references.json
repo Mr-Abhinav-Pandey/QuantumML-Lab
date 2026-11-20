@@ -1,0 +1,62 @@
+[
+  {
+    "id": "REF-MCCLEAN-2018",
+    "source_type": "PUBLISHED_REFERENCE",
+    "authors": ["Jarrod R. McClean", "Sergio Boixo", "Vadim N. Smelyanskiy", "Ryan Babbush", "Hartmut Neven"],
+    "year": 2018,
+    "title": "Barren plateaus in quantum neural network training landscapes",
+    "venue": "Nature Communications",
+    "volume": "9",
+    "article": "4812",
+    "doi": "10.1038/s41467-018-07090-4",
+    "url": "https://www.nature.com/articles/s41467-018-07090-4",
+    "study_focus": "Barren plateaus in randomly initialized parameterized quantum circuits under specified assumptions.",
+    "reported_finding": "The work establishes conditions under which gradient variance is exponentially suppressed with system size.",
+    "limitations_for_comparison": "A quantitative reproduction requires matching the paper's circuit ensemble, cost function, initialization, system sizes, and gradient definition. The current starter VQC is not that reproduction."
+  },
+  {
+    "id": "REF-CEREZO-2021",
+    "source_type": "PUBLISHED_REFERENCE",
+    "authors": ["M. Cerezo", "Akira Sone", "Tyler Volkoff", "Lukasz Cincio", "Patrick J. Coles"],
+    "year": 2021,
+    "title": "Cost function dependent barren plateaus in shallow parametrized quantum circuits",
+    "venue": "Nature Communications",
+    "volume": "12",
+    "article": "1791",
+    "doi": "10.1038/s41467-021-21728-w",
+    "url": "https://www.nature.com/articles/s41467-021-21728-w",
+    "study_focus": "How observable/cost-function locality affects barren plateaus for specified alternating layered ansatzes.",
+    "reported_finding": "The paper proves contrasting gradient-scaling results for global and local cost functions under stated assumptions.",
+    "limitations_for_comparison": "Do not compare the paper's asymptotic theoretical bounds directly with small two-qubit classification runs as if they were equivalent experiments."
+  },
+  {
+    "id": "REF-RAGONE-2024",
+    "source_type": "PUBLISHED_REFERENCE",
+    "authors": ["Michael Ragone", "Bojko N. Bakalov", "Frédéric Sauvage", "Alexander F. Kemper", "Carlos Ortiz Marrero", "Martín Larocca", "M. Cerezo"],
+    "year": 2024,
+    "title": "A Lie algebraic theory of barren plateaus for deep parameterized quantum circuits",
+    "venue": "Nature Communications",
+    "volume": "15",
+    "article": "7172",
+    "doi": "10.1038/s41467-024-49909-3",
+    "url": "https://www.nature.com/articles/s41467-024-49909-3",
+    "study_focus": "Lie-algebraic characterization of gradient variance in sufficiently deep parameterized quantum circuits.",
+    "reported_finding": "The work provides a general Lie-algebraic theory and considers certain noise models.",
+    "limitations_for_comparison": "The theory's assumptions must be checked before mapping it onto the project's specific ansatz."
+  },
+  {
+    "id": "REF-CUNNINGHAM-2025",
+    "source_type": "PUBLISHED_REFERENCE",
+    "authors": ["Jack Cunningham", "Jun Zhuang"],
+    "year": 2025,
+    "title": "Investigating and mitigating barren plateaus in variational quantum circuits: a survey",
+    "venue": "Quantum Information Processing",
+    "volume": "24",
+    "article": "48",
+    "doi": "10.1007/s11128-025-04665-1",
+    "url": "https://link.springer.com/article/10.1007/s11128-025-04665-1",
+    "study_focus": "Survey of barren-plateau mechanisms and mitigation research in variational quantum circuits.",
+    "reported_finding": "Reviews the research landscape and factors implicated in barren plateaus.",
+    "limitations_for_comparison": "A review article; trace specific technical claims back to the cited primary studies."
+  }
+]

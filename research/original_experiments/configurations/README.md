@@ -1,0 +1,1 @@
+Place one JSON configuration per original run here when extending the experiment runner. Each configuration should include a unique experiment ID, timestamp, code version, random seed, circuit/ansatz definition, cost function, observable, initialization, optimizer, dataset, and measurement model.
